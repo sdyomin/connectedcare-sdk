@@ -80,7 +80,7 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="SnapMD.ConnectedCare.Sdk.Test.Properties.Settings.config">
+    <None Include="SnapMD.ConnectedCare.Sdk.Tests.Properties.Settings.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
