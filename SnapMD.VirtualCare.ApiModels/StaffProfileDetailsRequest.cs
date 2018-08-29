@@ -96,6 +96,11 @@ namespace SnapMD.VirtualCare.ApiModels
         /// List of organizations/locations doctor/presenter may service.
         /// </summary>
         public IList<StaffServiceOrganizationModel>  ServiceOrganizations { get; set; }
+
+        /// <summary>
+        /// Provider may practice in any of the organizations, despite of <see cref="ServiceOrganizations"/> list.
+        /// </summary>
+        public bool ServiceAllOrganizations { get; set; }
     }
 
     /// <summary>
@@ -118,6 +123,11 @@ namespace SnapMD.VirtualCare.ApiModels
         /// Null or empty list is a wildcard meaning "all locations".
         /// </summary>
         public IList<StaffServiceLocationModel> Locations { get; set; }
+
+        /// <summary>
+        /// The flag meaning all locations are serviced despite of <see cref="Locations"/> list.
+        /// </summary>
+        public bool AllLocations { get; set; }
     }
 
     /// <summary>
