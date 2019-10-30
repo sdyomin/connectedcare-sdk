@@ -71,6 +71,11 @@ namespace SnapMD.VirtualCare.ApiModels
         ///ImageId
         /// </value>
         public Guid? ImageId { get; set; }
+
+        /// <summary>
+        /// Optional version of patient profile to check.
+        /// </summary>
+        public long? ProfileVersionId { get; set; }
     }
 
  
